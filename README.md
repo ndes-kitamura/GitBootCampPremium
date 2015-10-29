@@ -1,6 +1,5 @@
 # GitBootCampPremium
 
-
 ## git checkout
 
 git checkoutは以下の3つの機能を有します。
@@ -105,3 +104,19 @@ git branch は、ブランチの作成、一覧表示、リネーム、削除を
 現在のブランチの名前を <branch> に変更します。
 
 [www.atlassian.com](https://www.atlassian.com/ja/git/tutorial/git-branches#!branch)
+
+## git revert
+
+git revert は、コミットされたスナップショットを元に戻すコマンドです。
+ただし、プロジェクト履歴においてそのコミットがなかったものとするのではなく
+そのコミットによって加えられた変更を元に戻す方法を見出してその結果を新しいコミットとして
+追加するものです。
+これは、Git の履歴を保全するためであり、
+このことはバージョン履歴の完全性の維持とコラボレーションの信頼性の確保には必須です。
+
+```git revert <commit>```
+
+<commit>によって加えられたすべての変更を元に戻す新しいコミットを生成し、
+それを現在のブランチに適用するコマンドです。
+
+(www.atlassian.com)[https://www.atlassian.com/ja/git/tutorial/undoing-changes#!revert]
