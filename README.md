@@ -1,4 +1,4 @@
-# GitBootCampPremium
+# Git Boot Camp Premium
 
 ## git checkout
 
