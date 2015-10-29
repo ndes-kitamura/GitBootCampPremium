@@ -53,13 +53,13 @@ master ブランチに戻るコマンドです。
 ```git reabase -i <コミット番号>```
 
 コマンドを実行するとエディタが起動するので、変更内容を記載していく。
-pick = use commit
-reword = use commit, but edit the commit message
-edit = use commit, but stop for amending
-squash = use commit, but meld into previous commit
-fixup = like "squash", but discard this commit's log message
-exec = run command (the rest of the line) using shell
-drop = remove commit
+* pick = use commit
+* reword = use commit, but edit the commit message
+* edit = use commit, but stop for amending
+* squash = use commit, but meld into previous commit
+* fixup = like "squash", but discard this commit's log message
+* exec = run command (the rest of the line) using shell
+* drop = remove commit
 
 参考サイト
 
