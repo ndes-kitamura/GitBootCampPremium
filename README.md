@@ -29,12 +29,12 @@ master ブランチに戻るコマンドです。
 
 ## git merge
 
-ブランチに行った変更を取り込むコマンドです
-
+ブランチに行った変更を取り込むコマンドです。
+このコマンドでは、マージ対象ブランチがHEADの指しているブランチに取り込まれます。
 ```git merge <マージ対象ブランチ>```
 
 
-*参考サイト
+参考サイト
 [Qiita](http://qiita.com/LOUIS_rui/items/8e66f6f8f1a536830081)
 
 ## git rebase i
@@ -48,7 +48,7 @@ master ブランチに戻るコマンドです。
 
 ```git reabase -i <コミット番号>```
 
-*参考サイト
+参考サイト
 [あのコミットをなかった事に。git rebase -i の使い方](http://www.karakaram.com/git-rebase-i-usage)
 
 # 12 git reset
