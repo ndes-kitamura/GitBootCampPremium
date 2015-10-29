@@ -36,7 +36,10 @@ master ブランチに戻るコマンドです。
 
 
 参考サイト
+
 [Qiita](http://qiita.com/LOUIS_rui/items/8e66f6f8f1a536830081)
+
+[サルでもわかるGit入門](http://www.backlog.jp/git-guide/stepup/stepup2_4.html)
 
 ## git rebase i
 
@@ -50,7 +53,10 @@ master ブランチに戻るコマンドです。
 ```git reabase -i <コミット番号>```
 
 参考サイト
+
 [あのコミットをなかった事に。git rebase -i の使い方](http://www.karakaram.com/git-rebase-i-usage)
+
+[サルでもわかるGit入門](http://www.backlog.jp/git-guide/stepup/stepup7_6.html)
 
 # 12 git reset
 HEADの位置を変更するコマンド。
