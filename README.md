@@ -41,9 +41,9 @@ master ブランチに戻るコマンドです。
 
 [サルでもわかるGit入門](http://www.backlog.jp/git-guide/stepup/stepup2_4.html)
 
-## git rebase i
+## git rebase -i
 
-コミット内容を修正するコマンドです
+コミット内容を修正するコマンドです。
 - コミットメッセージの変更
 - コミット内容の変更
 - コミットの分割
@@ -51,6 +51,15 @@ master ブランチに戻るコマンドです。
 - コミットの削除
 
 ```git reabase -i <コミット番号>```
+
+コマンドを実行するとエディタが起動するので、変更内容を記載していく。
+pick = use commit
+reword = use commit, but edit the commit message
+edit = use commit, but stop for amending
+squash = use commit, but meld into previous commit
+fixup = like "squash", but discard this commit's log message
+exec = run command (the rest of the line) using shell
+drop = remove commit
 
 参考サイト
 
