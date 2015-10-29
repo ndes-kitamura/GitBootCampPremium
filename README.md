@@ -233,4 +233,4 @@ git revert は、コミットされたスナップショットを元に戻すコ
 <commit>によって加えられたすべての変更を元に戻す新しいコミットを生成し、
 それを現在のブランチに適用するコマンドです。
 
-(www.atlassian.com)[https://www.atlassian.com/ja/git/tutorial/undoing-changes#!revert]
+[www.atlassian.com](https://www.atlassian.com/ja/git/tutorial/undoing-changes#!revert)
