@@ -1,6 +1,5 @@
 # GitBootCampPremium
 
-
 ## git checkout
 
 git checkoutは以下の3つの機能を有します。
