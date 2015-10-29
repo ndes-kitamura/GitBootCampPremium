@@ -127,6 +127,24 @@ git branch は、ブランチの作成、一覧表示、リネーム、削除を
 
 [www.atlassian.com](https://www.atlassian.com/ja/git/tutorial/git-branches#!branch)
 
+## git reflog
+
+Git では、reflogと呼ばれる機能が働いて、ブランチの先端に対する更新の追跡が行われています。
+これにより、いかなるブランチからもいかなるタグからも参照されていない更新内容であっても
+その時点に戻ることができます。
+履歴を書き換えた後であっても reflog にはブランチの過去の状態が記録されており、
+必要な場合にはそこに戻ることができます。
+
+```git reflog```
+
+ローカルリポジトリの reflog を表示するコマンドです。
+
+```git reflog --relative-date```
+
+相対形式の日付 (例: 2 週間前) で reflog を表示するコマンドです。
+
+[www.atlassian.com](https://www.atlassian.com/ja/git/tutorial/rewriting-git-history#!reflog)
+
 ## git init
 
 git init は Git リポジトリを新たに作成するコマンドです。
