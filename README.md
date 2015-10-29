@@ -52,14 +52,14 @@ master ブランチに戻るコマンドです。
 
 ```git reabase -i <コミット番号>```
 
-コマンドを実行するとエディタが起動するので、変更内容を記載していく。
-* pick = use commit
-* reword = use commit, but edit the commit message
-* edit = use commit, but stop for amending
-* squash = use commit, but meld into previous commit
-* fixup = like "squash", but discard this commit's log message
-* exec = run command (the rest of the line) using shell
-* drop = remove commit
+コマンドを実行するとエディタが起動するので、変更内容を記載していく
+* pick = コミットをそのまま使う。内容を変更しない
+* reword = コミットメッセージを変更する。コミット内容は変更しない
+* edit = コミットを修正する
+* squash = ひとつ前のコミットにまとめる。コミットメッセージを書き直す
+* fixup = ひとつ前のコミットにまとめる。コミットメッセージをそのまま使う
+* exec = shell でコマンドを実行する
+* drop = コミットを削除します
 
 参考サイト
 
