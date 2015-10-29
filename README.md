@@ -200,5 +200,16 @@ HTTP や SSH を用いてアクセスするリモートマシーンに存在し�
 
 ## git add
 
-```$ git add [filename]
+```$ git add [filename]```
+
 ファイルやディレクトリをインデックスに登録する。
+
+```$ git add [filename]```
+
+すべての変更を含むワークツリーの内容をインデックスに追加する.
+
+## git commit
+
+```$ git commit ```
+
+インデックスに追加されたファイルをコミットする.
